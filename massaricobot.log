@@ -1,0 +1,447 @@
+2023-10-17 08:51:09,447:INFO:logging in using static token
+2023-10-17 08:51:10,540:INFO:Shard ID None has connected to Gateway (Session ID: 8600ad68fcc4116eea7319755213855b).
+2023-10-17 08:52:12,333:INFO:VERSAO jhowzada
+2023-10-17 08:52:22,089:INFO:MASSARICO jhowzada
+2023-10-17 08:52:34,742:INFO:COMANDOS jhowzada
+2023-10-17 08:57:57,575:INFO:logging in using static token
+2023-10-17 08:57:58,647:INFO:Shard ID None has connected to Gateway (Session ID: 8019d30715a1814d7eddd0172f12444c).
+2023-10-20 10:18:14,358:INFO:logging in using static token
+2023-10-20 10:18:15,421:INFO:Shard ID None has connected to Gateway (Session ID: 11ca18abdc7f1d6e9d323c7f85b3a266).
+2023-10-20 10:18:17,456:INFO:Bot conectado como Massarico
+2023-10-20 10:19:25,778:INFO:COMMAND: VERSAO - jhowzada
+2023-10-20 10:19:34,537:INFO:COMMAND: VERSAO - jhowzada
+2023-10-23 08:55:08,894:INFO:logging in using static token
+2023-10-23 08:55:10,066:INFO:Shard ID None has connected to Gateway (Session ID: 080487e5eea2b7fd74f390713ad99118).
+2023-10-23 08:55:12,109:INFO:Bot conectado como Massarico
+2023-10-23 08:55:56,547:INFO:COMMAND: FARM - jhowzada
+2023-10-23 09:06:04,956:INFO:logging in using static token
+2023-10-23 09:06:07,756:INFO:Shard ID None has connected to Gateway (Session ID: 16f51962df46409416508ea2a333c21a).
+2023-10-23 09:06:09,784:INFO:Bot conectado como Massarico
+2023-10-23 09:06:38,249:INFO:COMMAND: FARM - jhowzada
+2023-10-23 09:10:56,288:INFO:logging in using static token
+2023-10-23 09:10:57,265:INFO:Shard ID None has connected to Gateway (Session ID: 82304765f62fde65b66b65acadf3ed54).
+2023-10-23 09:10:59,410:INFO:Bot conectado como Massarico
+2023-10-23 09:11:15,538:INFO:COMMAND: FARM - jhowzada
+2023-10-23 09:22:09,723:INFO:logging in using static token
+2023-10-23 09:22:10,725:INFO:Shard ID None has connected to Gateway (Session ID: 9ecfe41cf36d472428111bb6d0c05794).
+2023-10-23 09:22:12,749:INFO:Bot conectado como Massarico
+2023-10-23 09:30:02,725:INFO:logging in using static token
+2023-10-23 09:30:04,621:INFO:Shard ID None has connected to Gateway (Session ID: 50e1af81152bdd8bf0396bab0a51528f).
+2023-10-23 09:30:06,648:INFO:Bot conectado como Massarico
+2023-10-23 09:45:42,548:INFO:logging in using static token
+2023-10-23 09:45:43,568:INFO:Shard ID None has connected to Gateway (Session ID: 948fb4945572d361f59b7c5aa686e3a8).
+2023-10-23 09:45:45,583:INFO:Bot conectado como Massarico
+2023-10-23 10:01:01,642:INFO:logging in using static token
+2023-10-23 10:01:02,721:INFO:Shard ID None has connected to Gateway (Session ID: e13d6390523faec97d48a05dc4d47279).
+2023-10-23 10:01:04,757:INFO:Bot conectado como Massarico
+2023-10-23 10:02:01,555:INFO:logging in using static token
+2023-10-23 10:02:02,600:INFO:Shard ID None has connected to Gateway (Session ID: ae789016c6ec1a22639b483fd31bc782).
+2023-10-23 10:02:04,609:INFO:Bot conectado como Massarico
+2023-10-23 10:02:13,056:ERROR:Ignoring exception in command set
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 109, in set
+    member = on_member_join(member)
+UnboundLocalError: local variable 'member' referenced before assignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: local variable 'member' referenced before assignment
+2023-10-23 10:02:36,221:INFO:logging in using static token
+2023-10-23 10:02:37,375:INFO:Shard ID None has connected to Gateway (Session ID: 9695aa4f5970b7907ac83664452519cf).
+2023-10-23 10:02:39,412:INFO:Bot conectado como Massarico
+2023-10-23 10:02:44,988:ERROR:Ignoring exception in command set
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 110, in set
+    await ctx.send(f"{member.mention}, favor preencher o formul rio para receber as permiss es necess rias.\nNome: \nId: \nApelido: \nTel: \nRecrutador: @{ctx.author} ")
+AttributeError: 'function' object has no attribute 'mention'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'function' object has no attribute 'mention'
+2023-10-23 10:05:06,036:INFO:logging in using static token
+2023-10-23 10:05:07,249:INFO:Shard ID None has connected to Gateway (Session ID: 3cac160cbd2837cc0bd12687f19d7aa1).
+2023-10-23 10:05:09,265:INFO:Bot conectado como Massarico
+2023-10-23 10:05:13,247:ERROR:Ignoring exception in command set
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 116, in set
+    if last_member is not None:
+NameError: name 'last_member' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'last_member' is not defined
+2023-10-23 10:08:02,836:INFO:logging in using static token
+2023-10-23 10:08:03,830:INFO:Shard ID None has connected to Gateway (Session ID: c9a95681e4a3abe213fbfaebcbf98b69).
+2023-10-23 10:08:05,859:INFO:Bot conectado como Massarico
+2023-10-23 10:08:13,055:ERROR:Ignoring exception in command set
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 116, in set
+    if last_member is not None:
+NameError: name 'last_member' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'last_member' is not defined
+2023-10-23 10:10:00,350:INFO:logging in using static token
+2023-10-23 10:10:01,616:INFO:Shard ID None has connected to Gateway (Session ID: a8d55ece69364585decfa24d62de512e).
+2023-10-23 10:10:03,646:INFO:Bot conectado como Massarico
+2023-10-23 10:10:09,221:ERROR:Ignoring exception in command set
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 116, in set
+    if last_member is not None:
+NameError: name 'last_member' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'last_member' is not defined
+2023-10-23 10:11:08,990:INFO:logging in using static token
+2023-10-23 10:11:10,055:INFO:Shard ID None has connected to Gateway (Session ID: 12bef694180c8ac01cfd01c165151d8e).
+2023-10-23 10:11:12,078:INFO:Bot conectado como Massarico
+2023-10-23 13:40:31,867:INFO:logging in using static token
+2023-10-23 13:40:32,930:INFO:Shard ID None has connected to Gateway (Session ID: 5aba5e83edf471763ebb2226ba2d9e9e).
+2023-10-23 13:40:34,965:INFO:Bot conectado como Massarico
+2023-10-23 17:17:37,102:INFO:logging in using static token
+2023-10-23 17:17:38,119:INFO:Shard ID None has connected to Gateway (Session ID: 44147cc4c5cfe56b56e838da605382a0).
+2023-10-23 17:17:40,150:INFO:Bot conectado como Massarico
+2023-10-23 17:17:44,067:INFO:COMMAND: VERSAO - jhonzin_41
+2023-10-23 17:18:12,918:ERROR:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "clear" is not found
+2023-10-23 17:18:57,125:INFO:logging in using static token
+2023-10-23 17:18:58,085:INFO:Shard ID None has connected to Gateway (Session ID: 4195e335d19276ce78cd81c3a83d434e).
+2023-10-23 17:19:00,113:INFO:Bot conectado como Massarico
+2023-10-23 17:19:05,868:INFO:COMMAND: VERSAO - jhonzin_41
+2023-10-23 17:19:19,427:INFO:COMMAND: VERSAO - jhonzin_41
+2023-10-23 17:22:15,905:INFO:logging in using static token
+2023-10-23 17:22:16,890:INFO:Shard ID None has connected to Gateway (Session ID: 9395444d9bcea089ec5e0fc36110ff7e).
+2023-10-23 17:22:18,914:INFO:Bot conectado como Massarico
+2023-10-23 17:22:34,817:INFO:COMMAND: VERSAO - jhonzin_41
+2023-10-23 17:51:01,739:INFO:logging in using static token
+2023-10-23 17:51:02,891:INFO:Shard ID None has connected to Gateway (Session ID: 18f35508fc3418d26c01adb48accb74a).
+2023-10-23 17:51:04,903:INFO:Bot conectado como Massarico
+2023-10-25 10:00:46,311:INFO:logging in using static token
+2023-10-25 10:00:47,653:INFO:Shard ID None has connected to Gateway (Session ID: dbaf889ebe0b0d785d668ab468ab5a5e).
+2023-10-25 10:00:49,680:INFO:Bot conectado como Massarico
+2023-10-25 10:03:59,280:INFO:logging in using static token
+2023-10-25 10:04:00,509:INFO:Shard ID None has connected to Gateway (Session ID: 5ef080f0d91b9b63a162da556ad19362).
+2023-10-25 10:04:02,543:INFO:Bot conectado como Massarico
+2023-10-25 10:04:39,086:INFO:logging in using static token
+2023-10-25 10:04:40,211:INFO:Shard ID None has connected to Gateway (Session ID: 526f112b7647fc2250c3991733504bb8).
+2023-10-25 10:04:42,241:INFO:Bot conectado como Massarico
+2023-10-25 10:08:28,289:INFO:logging in using static token
+2023-10-25 10:08:29,209:INFO:Shard ID None has connected to Gateway (Session ID: 863bdadab826fa7d75bf48eadb587d78).
+2023-10-25 10:08:31,229:INFO:Bot conectado como Massarico
+2023-10-25 10:13:32,973:INFO:logging in using static token
+2023-10-25 10:13:34,084:INFO:Shard ID None has connected to Gateway (Session ID: 0756901378d6209495956fe2e4f50b29).
+2023-10-25 10:13:36,100:INFO:Bot conectado como Massarico
+2023-10-25 10:26:09,919:INFO:logging in using static token
+2023-10-25 10:26:12,013:INFO:Shard ID None has connected to Gateway (Session ID: 74b99d9f58b19506a3ed055f6180b625).
+2023-10-25 10:26:14,043:INFO:Bot conectado como Massarico
+2023-10-25 10:52:03,116:INFO:Shard ID None has successfully RESUMED session 74b99d9f58b19506a3ed055f6180b625.
+2023-10-25 11:08:47,167:INFO:logging in using static token
+2023-10-25 11:08:48,202:INFO:Shard ID None has connected to Gateway (Session ID: be8d6b0978fe45f03ebd9fd9a434903e).
+2023-10-25 11:08:50,222:INFO:Bot conectado como Massarico
+2023-10-25 11:09:32,698:ERROR:Ignoring exception in command buttons
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 226, in buttons
+    discord.components.Button(style=discord.ButtonStyle.green, label="Iniciar"),
+TypeError: Button.__init__() got an unexpected keyword argument 'style'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Button.__init__() got an unexpected keyword argument 'style'
+2023-10-25 11:11:47,882:INFO:logging in using static token
+2023-10-25 11:11:48,955:INFO:Shard ID None has connected to Gateway (Session ID: 5967c4ced54154a64dc35bae1d4e5500).
+2023-10-25 11:11:50,987:INFO:Bot conectado como Massarico
+2023-10-25 11:12:05,580:ERROR:Ignoring exception in command buttons
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 228, in buttons
+    discord.ui.Button(style=discord.ButtonStyle.blue, label="Retomar"),
+AttributeError: type object 'ButtonStyle' has no attribute 'blue'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: type object 'ButtonStyle' has no attribute 'blue'
+2023-10-25 11:12:33,461:INFO:logging in using static token
+2023-10-25 11:12:34,470:INFO:Shard ID None has connected to Gateway (Session ID: aa118bb51d9def862767786803713457).
+2023-10-25 11:12:36,501:INFO:Bot conectado como Massarico
+2023-10-25 11:12:46,398:ERROR:Ignoring exception in command buttons
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 223, in buttons
+    await ctx.send(
+TypeError: Context.send() got an unexpected keyword argument 'components'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Context.send() got an unexpected keyword argument 'components'
+2023-10-25 11:14:13,735:INFO:logging in using static token
+2023-10-25 11:14:14,868:INFO:Shard ID None has connected to Gateway (Session ID: 7adeeeb0ee46d27ce7e96655a0bfb1c0).
+2023-10-25 11:14:16,899:INFO:Bot conectado como Massarico
+2023-10-25 11:14:28,233:ERROR:Ignoring exception in command buttons
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 254, in buttons
+    await ctx.send(content="Selecione uma op  o:", components=components)
+TypeError: Context.send() got an unexpected keyword argument 'components'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Context.send() got an unexpected keyword argument 'components'
+2023-10-25 13:47:16,626:INFO:logging in using static token
+2023-10-25 13:47:17,674:INFO:Shard ID None has connected to Gateway (Session ID: 49228abed2a3d9ad66be87f420e09262).
+2023-10-25 13:47:19,700:INFO:Bot conectado como Massarico
+2023-10-25 13:47:53,494:INFO:COMMAND: NOTE - jhonzin_41
+2023-10-25 13:48:04,599:ERROR:Ignoring exception in command farm
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 127, in farm
+    await ctx.message.delete()
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-10-25 13:48:43,044:ERROR:Ignoring exception in command info
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 114, in info
+    await ctx.message.delete()
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-10-26 10:37:10,303:INFO:logging in using static token
+2023-10-26 10:37:11,333:INFO:Shard ID None has connected to Gateway (Session ID: 4d197d3591938311feeabd01adcbfd78).
+2023-10-26 10:37:13,362:INFO:Bot conectado como Massarico
+2023-10-26 10:38:16,103:INFO:logging in using static token
+2023-10-26 10:38:17,373:INFO:Shard ID None has connected to Gateway (Session ID: b17a8c8f7255fc25aeef8ace6f959d97).
+2023-10-26 10:38:19,396:INFO:Bot conectado como Massarico
+2023-10-26 10:42:29,753:INFO:logging in using static token
+2023-10-26 10:42:31,030:INFO:Shard ID None has connected to Gateway (Session ID: b9a9d96bf115fa6171b703e14b3ee602).
+2023-10-26 10:42:33,050:INFO:Bot conectado como Massarico
+2023-10-26 10:42:35,172:ERROR:Ignoring exception in command versao
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 118, in versao
+    await ctx.message.delete()
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-10-26 10:43:43,099:INFO:logging in using static token
+2023-10-26 10:43:44,095:INFO:Shard ID None has connected to Gateway (Session ID: e34bddd19e992cd729272ea476293c3b).
+2023-10-26 10:43:46,133:INFO:Bot conectado como Massarico
+2023-10-26 10:43:48,871:ERROR:Ignoring exception in command versao
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 118, in versao
+    await ctx.message.delete()
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-10-26 10:44:41,525:INFO:logging in using static token
+2023-10-26 10:44:42,604:INFO:Shard ID None has connected to Gateway (Session ID: 3c36d354b2e93fcdf48c067848f12013).
+2023-10-26 10:44:44,650:INFO:Bot conectado como Massarico
+2023-10-26 10:44:47,716:ERROR:Ignoring exception in command versao
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 114, in versao
+    await ctx.message.delete()
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-10-26 10:47:10,751:INFO:logging in using static token
+2023-10-26 10:47:11,819:INFO:Shard ID None has connected to Gateway (Session ID: 4a1275c3cb25891942abeb9be706e12c).
+2023-10-26 10:47:13,862:INFO:Bot conectado como Massarico
+2023-10-26 10:47:33,852:ERROR:Ignoring exception in command versao
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 117, in versao
+    await ctx.message.delete()
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-10-26 10:48:23,064:INFO:logging in using static token
+2023-10-26 10:48:24,239:INFO:Shard ID None has connected to Gateway (Session ID: a99e614fcbbd0f18b07700a8514f18ea).
+2023-10-26 10:48:26,247:INFO:Bot conectado como Massarico
+2023-10-26 10:48:33,607:ERROR:Ignoring exception in command versao
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\15464833\Desktop\massarico\index.py", line 117, in versao
+    await ctx.message.delete()
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\15464833\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
